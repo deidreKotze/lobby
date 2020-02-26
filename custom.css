@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono:400,400i,700,700i&display=swap');
+
+
+
+:root {
+
+/* Override variables */
+--font-family-sans-serif: 'Work Sans',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+--font-family-serif: 'Space Mono', serif;
+--blue: #4f6da3;
+--gray-dark: #404040;
+
+
+/* Page Variables */
+--color-medium: #ddd;
+--color-reverse: var(--gray-dark);
+--color-text: var(--gray-dark);
+--color-text-reverse: var(--light);
+--color-text: var(--gray-dark);
+--font-family-title: var(--font-family-sans-serif);
+--font-family-text: var(--font-family-serif);
+--font-family: var(--body-copy);
+}
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%; 
+  max-height: 100%; 
+  font-family:Sans-serif;
+  line-height: 1.5em;
+}
+
+main {
+  position: fixed;
+  top: 50px; /* Set this to the height of the header */
+  bottom: 50px; /* Set this to the height of the footer */
+  left: 200px; 
+  right: 200px;
+  overflow: auto; 
+  background: #fff;
+}
+.innertube {
+  margin: 15px; /* Provides padding for the content */
+}
+
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+} 
+  .grid {
+    width: 100;
+    height: 100;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 100px;
+    background-image: url('./images/grid.png');
+    position: relative;
+  }
+  .grid::before {
+    content: "";
+    border-left: 1px solid #7c7cea;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 750px;
+    height: 600px;
+  }
+  .grid::after {
+    content: "";
+    border-top: 1px solid #7c7cea;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 850px;
+    height: 500px;
+  }
+
+
+.family-sans {
+    font-family: var(--font-family-sans-serif);
+}
+
+
+ .site-header {
+     background:url('./images/arch-pedestal-stock-1.jpg');
+     background-position:  center bottom;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+ }
+
+ .site-header .layout-hero {
+     height:20vh;
+ }
+.site-header .page-section-title {
+    font-size: 3em;
+    font-family: var(--font-family-sans-serif);
+    font-weight:500;
+}
+
+.screen {
+  display:none;
+
+video {
+  display:border-box;
+
+}
+#arrow:hover {
+  background-image:url("./images/arrow-2.svg");
+}
+}
+/**.bounce {
+  animation-name:bounce;
+  animation-duration: 1s;
+  animation-iteration-count:infinite;
+}**/
