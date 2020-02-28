@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+    <title>Deidre Kotze | Digital Portfolio</title>
+</head>
+<body>
+     <header id="page-hero" class="site-header">
+          <div class='container-fluid'>
+            <button type="button" class='navbar-toggler' data-toggle="collapse" data-target="#myTogglerNav" aria-controls="#myTogglerNav" aria-expanded="false"  aria-label="Toggle Navigation"> 
+                <span class='navbar-toggler-icon'>
+                  <div> 
+                  <img src="./images/letter-1.svg">
+                  <img src="./images/letter-2.svg">
+                  <img src="./images/letter-3.svg">
+                  <img src="./images/letter-3.svg">
+                  <img src="./images/letter-4.svg">
+                </div></span>
+            </button>
+          <section class='collapse navbar-collapse' id='myTogglerNav'>
+            <div class="navbar-nav ml-auto">
+                <a class='nav-item nav-link' href="#">past</a>
+                <a class='nav-item nav-link' href="#">future</a>
+        
+            </div>      
+        </section>
+    </div>
+
+<article id="page-multicolumn" class='page-section text-center py-5 container'>
+  <div class="row justify-content-center">
+    <div class="col-11 col-sm-10 col-md-8">  
+      <header class="page-section-header">
+        <h1 class="page-section-title">
+          <i>launching soon</i>
+    </h1>
+  <p class="page-section-text">
+
+  </p>
+</div>
+</div>
+</header>    
+
+<main>
+
+<section class='layout-hero d-flex align-items-center text-center'>
+    <div class='container'>
+      <div class="row">
+        <div class="col-11 col-sm-1 col-md-8">      
+          <h2 class="page-section-title my-5 family-sans">This is a work in progress</h2>
+
+        </div>
+     </div>
+  </div>
+</section>
+
+<article id="page-media"class="page-section">
+<section class="layout-media container my-5">
+    <div class="row justify-content-center">
+    <div class="col-8 grid">
+      <div class="layout-image">  
+
+<div>
+    <div style='z-index: 2'>
+    <video width="320" height="240" autoplay loop >
+        <source src="./images/static.webm" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>   </div>
+    <div class="front"><img src="./images/screen.png" width="340" height="260">
+     </div>
+    </div>
+</div>
+
+<div class="media-body family-sans">
+    <h3>DRAWING BOARD</h3>
+        <p>PROTOTYPING IN THE BROWSER</p>
+        </div>
+      </div>
+     </div>
+</section>
+    <section class="layout-media container my-5">
+      <div class="row justify-content-center">
+      <div class="col-8">
+        <div class="layout-image">  
+        <img src="./images/arrow-1.svg" alt="arrow down">
+        </div>
+        <div class="media-body">
+          <h2><i>more content<br>COMING SOON</i></h2>
+          </div>
+        </div>
+       </div>
+    </section>
+
+    <section class="layout-media container my-5">
+        <div class="row justify-content-center">
+            <div class="col-6">
+             <div class="media-body font-family-text">
+                <p> I draw, <br> mostly with the intention of creation<br>I like simplifying things<br>by first complicating the subject, <br>this process allows many ideas to come to fore </p>
+                </p>
+            </div>  
+             </div> 
+        </div>
+    </section>
+</article>
+</main>  
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./gulpfile.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+  
+</body>
+</html>
