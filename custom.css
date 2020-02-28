@@ -90,13 +90,11 @@ main {
   width: 100px;
   height:auto;
 }
-.top {
-  z-index: 1;
-}
 
-.bottom {
-  z-index: 2;
-}
+@media only screen and (max-width: 600px) {
+  header {
+    display: none;
+  }
 
 .box {
   align-self: flex-end;
