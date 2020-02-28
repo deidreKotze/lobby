@@ -91,11 +91,6 @@ main {
   height:auto;
 }
 
-@media only screen and (max-width: 600px) {
-  header {
-    display: none;
-  }
-
 .box {
   align-self: flex-end;
   animation-duration: 2s;
