@@ -22,12 +22,8 @@
 --color-text: var(--gray-dark);
 --font-family-title: var(--font-family-sans-serif);
 --font-family-text: var(--font-family-serif);
---font-family: var(--body-copy);
+
 }
-
-
-
-
 body {
   margin: 0;
   padding: 0;
@@ -40,28 +36,15 @@ body {
 
 main {
   position: fixed;
-  top: 50px; /* Set this to the height of the header */
-  bottom: 50px; /* Set this to the height of the footer */
+  top: 50px; 
+  bottom: 50px; 
   left: 200px; 
   right: 200px;
   overflow: auto; 
   background: #fff;
 }
-.innertube {
-  margin: 15px; /* Provides padding for the content */
-}
 
-
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-@media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-} 
-  .grid {
+.grid {
     width: 100;
     height: 100;
     margin: 0 auto;
@@ -70,7 +53,7 @@ main {
     background-image: url('./images/grid.png');
     position: relative;
   }
-  .grid::before {
+.grid::before {
     content: "";
     border-left: 1px solid #7c7cea;
     position: absolute;
@@ -79,7 +62,7 @@ main {
     width: 750px;
     height: 600px;
   }
-  .grid::after {
+.grid::after {
     content: "";
     border-top: 1px solid #7c7cea;
     position: absolute;
@@ -88,12 +71,13 @@ main {
     width: 850px;
     height: 500px;
   }
-
-
+.font-family-text {
+    font-family: var(--font-family-serif);
+}
+ 
 .family-sans {
     font-family: var(--font-family-sans-serif);
 }
-
 
  .site-header {
      background:url('./images/arch-pedestal-stock-1.jpg');
@@ -114,7 +98,7 @@ main {
 
 .screen {
   display:none;
-
+}
 video {
   display:border-box;
 
@@ -122,9 +106,7 @@ video {
 #arrow:hover {
   background-image:url("./images/arrow-2.svg");
 }
+.layout-image {
+  width: 100px;
+  height:auto;
 }
-/**.bounce {
-  animation-name:bounce;
-  animation-duration: 1s;
-  animation-iteration-count:infinite;
-}**/
