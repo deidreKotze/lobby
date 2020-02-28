@@ -109,6 +109,4 @@ main {
   50%  { transform: translateY(-100px); }
   100% { transform: translateY(0); }
 }
-[class*="col-"] {
-  width: 100%;
-}
+
